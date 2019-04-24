@@ -1,6 +1,6 @@
 <template>
-  <div id="translateForm">
-   <form v-on:submit="formSubmit">
+  <div class="row" id="translateForm">
+   <form class="well" v-on:submit="formSubmit">
     <input type="text" v-model="textToTranslate" placeholder="Enter a word...">
     <select v-model="language">
       <option value="ru">Russian</option>
