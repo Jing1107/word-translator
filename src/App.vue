@@ -2,6 +2,7 @@
   <div class="text-center" id="app">
    <h1>Word Translator</h1>
    <h5>powered By Vue.js</h5>
+   <hr>
    <TranslateForm v-on:formSubmit="translateText"></TranslateForm>
    <TranslateOutput v-text="translatedText" ></TranslateOutput>
   </div>
