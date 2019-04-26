@@ -8,8 +8,6 @@
           <option value="es">Spanish</option>
           <option value="fr">French</option>
           <option value="zh">Chinese</option>
-          <option value=""></option>
-
         </select>
         <input class="btn btn-primary" type="submit" value="Translate">
       </form>
